@@ -7,7 +7,7 @@ url = "https://docs.python.org/3/library/"
 mods = ["os", "shutil", "sys"]
 
 def wait():
- for i in range(3):
+ for _ in range(3):
   print(".")
   time.sleep(1)	
 
