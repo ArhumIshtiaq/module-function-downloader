@@ -8,8 +8,9 @@ mods = ["os", "shutil", "sys"]
 
 def wait():
  for _ in range(3):
-  print(".")
-  time.sleep(1)	
+  print(".", flush = True, end="")
+  time.sleep(1)
+ print()
 
 for x in mods:
   print("Downloading", url+x+".html")
